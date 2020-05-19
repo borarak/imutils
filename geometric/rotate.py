@@ -73,7 +73,7 @@ def get_rotation_matrix(image, angle, adjust_boundaries=True):
     b = np.math.sin(angle)
     xc1 = -cx
     xc2 = cx
-    yc1 = -cy  # y is related to height direction in the final picture but in opposite y direction
+    yc1 = -cy
     yc2 = cy
 
     rot_matrix = [
